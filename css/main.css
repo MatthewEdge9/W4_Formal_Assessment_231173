@@ -1,0 +1,192 @@
+html, body{
+    margin: 0;
+}
+
+nav{
+    width: 100%;
+    height: 80px;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 20px;
+    background-color: gray;
+}
+
+li{
+    padding-right: 5px;
+    padding-top: 0%;
+    display: inline-block;
+}
+
+a{ 
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    text-align: center;
+    border-radius: 5px;
+    font-size: medium;
+    padding: 9px
+}
+
+header{
+    width: 100%;
+    height: 600px;
+    background-color: lightgray;
+    padding-left: 10%;  
+    padding-top: 7.8%;  
+}
+
+.heading{
+    font-size: 45px;
+    margin-bottom: 16px;
+}
+    
+.logo{
+    width: 200px;
+    padding-left: 0px;
+    padding-top: 0px;
+    color: white;
+    margin: 0%;
+   
+}
+
+.buttons{
+    width: 520px;
+    height: 60px;
+    float: right;
+    margin-top: 0px;
+}
+
+a:hover{
+    color: rgb(255, 255, 255);
+    background-color: #000000;
+    cursor: pointer;
+}
+
+.container-fluid{
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0;
+}
+
+.row{
+    width: 100%;
+    margin: 0;
+}
+
+.col-12{
+    width: 100%;
+    height: 100px;
+    background-color: grey;
+    text-align: center;
+    color: white;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.col-6-1{
+    background-color: white;
+    width: 50%;
+    padding-left: 10px;
+    padding-right: 14px;
+}
+
+.image{
+    background-color: lightgrey;
+    height: 400px;
+    width: 80%;
+    border-radius: 1%;
+    margin-left: 95px;
+    margin-right: 65px;
+    margin-top: 50px;
+}
+
+.col-6-2{
+    background-color: white;
+    width: 50%;
+    padding-left: 10px;
+    padding-right: 14px;
+    padding-top: 100px;
+}
+
+.mid-btn{
+    margin-top: 30px;
+    height: 40px;
+    width: 200px;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: bold;
+    border: 2px solid black; 
+    padding-top: 6px;  
+}
+
+.mid-btn:hover{
+    color: rgb(255, 255, 255);
+    background-color: #000000;
+    cursor: pointer;
+}
+
+.row2head{
+    text-align: center;
+    padding-top: 100px;
+}
+
+.col-3{
+    width: 25%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.circle{
+    background-color: lightgrey;
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 25px;
+}
+
+.title{
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.description{
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.bot-btn{
+    margin-left: 152px;
+    margin-right: 150px;
+    margin-top: 10px;
+    margin-bottom: 100px;
+    height: 35px;
+    width: 150px;
+    border-radius: 5px;
+    text-align: center;
+    color: white;
+    background-color: rgb(46, 46, 46);
+    border: 2px solid black; 
+    vertical-align: center;
+    padding-top: 3px;
+}
+
+.bot-btn:hover{
+    color: #000000;
+    background-color: #ffffffff;
+    cursor: pointer;
+}
+
+footer{
+    background-color: rgb(46,46,46);
+    height: 150px;
+    color: white;
+    text-align: center;
+    padding-top: 45px;
+}
