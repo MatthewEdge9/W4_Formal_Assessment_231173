@@ -43,9 +43,10 @@ header{
 .logo{
     width: 200px;
     padding-left: 0px;
+    padding-right: 0px;
     padding-top: 0px;
     color: white;
-    margin: 0%;
+    margin-right: 0;
    
 }
 
@@ -54,6 +55,7 @@ header{
     height: 60px;
     float: right;
     margin-top: 0px;
+    margin-right: 0px;
 }
 
 a:hover{
@@ -71,6 +73,8 @@ a:hover{
 .row{
     width: 100%;
     margin: 0;
+    padding-left: 0%;
+    padding-right: 0%;
 }
 
 .col-12{
@@ -186,7 +190,74 @@ a:hover{
 footer{
     background-color: rgb(46,46,46);
     height: 150px;
+    width: 100%;
     color: white;
     text-align: center;
     padding-top: 45px;
+}
+
+.heading2{
+    padding-top: 40px;
+    margin-bottom: 34px;
+    text-align: center;
+}
+
+.col-4{
+    width: 33.33%;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-bottom: 0px;
+}
+
+.image2{
+    background-color: lightgrey;
+    width: 100%;
+    height: 250px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.bot-btn2{
+    
+    margin-top: 20px;
+    margin-bottom: 60px;
+    height: 35px;
+    width: 150px;
+    border-radius: 5px;
+    text-align: center;
+    color: white;
+    background-color: rgb(46, 46, 46);
+    border: 2px solid black; 
+    padding-top: 3px;
+}
+
+.bot-btn2:hover{
+    color: #000000;
+    background-color: #ffffffff;
+    cursor: pointer;
+}
+
+.col-6{
+    width: 50%;
+    padding-left: 5%;
+    padding-right: 12px;
+    padding-top: 50px;
+}
+
+.image3{
+        background-color: lightgrey;
+        width: 100%;
+        height: 400px;
+        border-radius: 5px;
+        margin-bottom: 20px;
+        padding-left: 5%;
+}
+
+
+.space{
+    background-color: white;
+    width: 100%;
+    height: 100px;
 }
